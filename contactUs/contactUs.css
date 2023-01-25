@@ -1,0 +1,27 @@
+.h1{
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+    background: rgb(133, 220, 130);
+    color: rgba(212, 0, 255, 0.668);
+    border-radius: 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: auto;
+    min-height: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;  
+}
+.container2{
+    text-align: center;
+    padding: 50px;
+    border: 55px solid cyan;
+    background-color: rgb(167, 178, 178);
+}
