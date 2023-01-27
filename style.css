@@ -16,6 +16,8 @@ style.css> body
   	width: 100%;
   	height: 100vh;
   }
+  
+  
   .nav1{
     width: 100%;
     height: 80x;
@@ -35,8 +37,13 @@ style.css> body
     margin-right: -121px;
 
   }
+  .c{
+    background-color: red;
+   
+
+  }
   .nav1 .right a img:hover{
-    background: red;
+    background: yellowgreen;
     cursor: pointer;
     color: white;
   }
@@ -87,6 +94,7 @@ style.css> body
     text-align: center;
     background-color: aqua;
   }
+  
   .nav2 .nav2-left, .nav2 .nav2-center, .nav2 .nav2-right{
     flex-basis: 30;
     margin:  auto;
@@ -120,9 +128,11 @@ style.css> body
     justify-content: center;
     align-items: center;
     line-height: 70px;
-    background-color: blue;
+    background-color: #ff0000;
     
   }
+  .bulb{
+    background-color:cyan  }
 
   .searchBar input{
     color: red;
@@ -172,6 +182,10 @@ style.css> body
     left: 0;
     display: none;
    }
+   #container-box{
+    position: sticky;
+    top: 0px;
+   }
    /* -- */
   .nav3 u1 u1 list{
     background-color: rgb(80, 75, 75);
@@ -180,7 +194,7 @@ style.css> body
     font-weight: bold;
   }
   .nav3 u1 u1 list:hover{
-    background-color: yellowgreen;
+    background-color: rgb(24, 226, 31);
   }
   
   /* -- */
@@ -194,6 +208,31 @@ style.css> body
     background-size: cover;
     background-position: top;
     position: relative;
+  }
+
+
+/* list style */
+
+  .lst{
+    border: 6px double red;
+    border-radius: 200px;
+    background-color: rgb(162, 74, 42);
+  
+  }
+  .drop{
+    border: 6px double red;
+    border-radius: 200px;
+    background-color: rgb(0, 255, 8);
+  }
+  
+
+
+  /* list style */
+
+  .f{
+   
+    background-image:linear-gradient(to right,rgb(4, 4, 4) 20%,rgba(15, 13, 13, 0.2)), url(https://media.istockphoto.com/id/1073935306/photo/girls-carrying-shopping-bags.jpg?s=612x612&w=0&k=20&c=JB-TrME32dc0VTnaXVxsbJIExZqR71m-iyVOnG-7puM=);
+   
   }
   .featured-text{
     max-width: 500px;
@@ -375,7 +414,7 @@ style.css> body
     margin: 10px 20px;
   }
   #sidenav u1 list a{
-    test-decoration: none;
+    teXt-decoration: none;
     color: white;
     font-weight: 500;
     display: block;
