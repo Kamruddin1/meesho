@@ -8,6 +8,7 @@ setInterval(async function () {
     document.querySelector("#led1").classList.toggle("bulb")
 },2000)
 
+
 //  for shoping cart
 
 setInterval(async function () {

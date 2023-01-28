@@ -1,51 +1,95 @@
+.latest{
+  padding: 50px 100px;
+
+}
+
+/* /latest products  start */
+
+.new-products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: auto;
+  border: 3px solid red;
+  background-color: blue;
+  color: red;
+}
+/* /latest products end */
+.product-intro{
+  text-align: center;
+}
+.product-intro h1{
+  color: var(--primary);
+  letter-spacing: 0.2rem;
+  font-weight: bolder;
+}
+.product-intro h1 span{
+  color: var(--secondary);
+
+}
+.product-intro p{
+  color: grey;
+  margin: 15px 0px;
+}
 .card-container{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    cursor: pointer;
-    margin: 4rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  margin: 4rem 0;
 
-  }
-  .card-container .card{
-    flex-basis: 100%;
-    padding: 0.8rem;
-    position: relative;
-    text-align: center;
-  }
-  .card img{
-    width: 100%;
-    transition: 0.5s ease-in-out;
-  }
-  .card i{
-    color: goldenrod;
-    margin: 10px 0;
-  }
-  .card button{
+}
+.card-container .card{
+  flex-basis: 100%;
+  padding: 0.8rem;
+  position: relative;
+  text-align: center;
+}
+.card img{
+  width: 100%;
+  transition: 0.5s ease-in-out;
+}
+#{
+  color: goldenrod;
+  margin: 100px 0;
+
+}
+.card i{
+  color: goldenrod;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.card button{
+  color: rgb(177, 27, 27);
+  border: 50px solid black;
+  background-color: var(--secondary);
+  border: none;
+  outline: none;
+  margin-top: 15px;
+  padding: 5px 20px;
+
+}
+.card:hover img, .card:hover h1{
+  width: 80%;
+  color: var(--primary);
+}
+.card::before{
+    content: '20% off';
+    width: 25%;
+    height: 25px;
+    outline-style: 25;
     color: white;
-    background-color: var(--secondary);
-    border: none;
-    outline: none;
-    margin-top: 15px;
-    padding: 5px 20px;
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    padding: 0px 4px;
+    transform: rotate(-20deg);
+    border: 5px solid black;
+    background: red;
   }
-  .card:hover img, .card:hover h1{
-    width: 80%;
-    color: var(--primary);
-  }
-  .card::before{
-      content: '20% off';
-      width: 25%;
-      height: 25px;
-      outline-style: 25;
-      color: white;
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: var(--primary);
-      padding: 0px 4px;
-      transform: rotate(-20deg);
 
 
-  }
+  
