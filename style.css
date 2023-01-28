@@ -240,7 +240,52 @@ style.css> body
     border-radius: 50px;
 }
 /* /latest products end */
-  
+
+/* kurti style start */
+.k button{
+  background: rgb(223, 13, 13);
+  align-items: center;
+  color: black;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-left: 600px;
+}
+.kurti button{
+  background: yellow;
+}
+/* kurti stlye end */
+
+/* man style start */
+
+.m button{
+  background: rgb(223, 13, 13);
+  align-items: center;
+  color: black;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-left: 600px;
+}
+.man button{
+  background: #c3ff00;
+}
+
+/* man style end */
+
+/*shoes style start */
+
+.s button{
+  background: rgb(223, 13, 13);
+  align-items: center;
+  color: black;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-left: 600px;
+}
+.shoes button{
+  background: #c3ff00;
+}
+
+/* shoes style end */
 
 
   /* list style */

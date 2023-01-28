@@ -15,5 +15,19 @@ setInterval(async function () {
     document.querySelector("#cart").classList.toggle("c")
 },1000)
 
+// for more products
+
+setInterval(async function () {
+    document.querySelector("#shoes").classList.toggle("shoes")
+},1000)
+
+
+setInterval(async function () {
+    document.querySelector("#man").classList.toggle("man")
+},1000)
+
+setInterval(async function () {
+    document.querySelector("#kurti").classList.toggle("kurti")
+},1000)
 
 

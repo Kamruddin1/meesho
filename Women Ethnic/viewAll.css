@@ -3,19 +3,7 @@
 
 }
 
-/* /latest products  start */
 
-.new-products{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: auto;
-  border: 3px solid red;
-  background-color: blue;
-  color: red;
-}
-/* /latest products end */
 .product-intro{
   text-align: center;
 }
